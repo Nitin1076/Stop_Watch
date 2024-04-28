@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stop Watch</title>
+  </head>
+  <style>
+    h1{
+      
+     color:#FFAF0A;
+     font-size:50px;
+     
+    }
+    #startbutton,#lapbutton,#stopbutton{
+       width: 90px;
+        height: 90px;
+       
+        border-radius: 100px;
+        outline: none;
+        background:  #E42218;
+        color: white; 
+        font-size:20px;
+        cursor: pointer;
+        /*box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);*/
+ }
+    </style>
+  <body style="background-color : black ;text-align : center;">
+    <h1>Stop Watch</h1>
+    <div id="content">
+      <label id="content1" style="color:#FFAF0A; font-size:50px;">00 : 00 : 00</label>
+    </div>
+    <input type="button" id="startbutton" value="Start"/>
+    <input type="button" id="lapbutton" value="Lap"/>
+    <input type="button" id="stopbutton" value="Stop"/>
+    <br>
+    <br>
+    <br>
+    <div id="container"style="color:#FFAF0A;font-size:30px;" ></div>
+
+    <script src="index.js">
+      </script>
+  </body>
+</html>
